@@ -180,4 +180,25 @@ GET /v1/vacancies/{id}
 
 #### Table of Reference
 
-tes
+| Name | Type | Description | Example |
+|---|---|---|---|
+| nextUpdate | dateTime\|null | The date resources will be updated and retrieved from the external ATS. | 2016-05-16 12:15:02 |
+| timeZoneId | string | The current timezone ID ([http://php.net/manual/en/timezones.php](http://php.net/manual/en/timezones.php)) | UTC |
+| totalFound | int | The total amount of available vacancies. | 503 |
+| data:id | uuid | The ATS Central vacancy ID. | b72262d6-26e8-4130-b25c-11e46effa269 |
+| data:provider | string | The external ATS name reference | Whires |
+| data:externalID | string | The external ATS vacancy ID | 55543-2213 |
+| data:refNumber | string\|null | The external ATS vacancy reference number. | SRDEV102 |
+| data:title | string\|null | The vacancy main title. | Senior PHP Developer |
+| data:language | string\|null | The vacancy language code. | en-US |
+| data:descriptions | array | Holds all the vacancy channel description sections. |
+| data:descriptions:title | string\|null | The vacancy title for this channel. | The great Senior PHP Developer |
+| data:descriptions:channel | string | The description channel name. Possible values are:<br>*   **default** - The default description section (can be used by career websites, others);<br>*   **facebook** - The Facebook related descriptions channel;<br>*   **twitter** - The Twitter related descriptions channel;<br>If the remote ATS doesn't specify a channel, the "**default**" option will be used. | default |
+| data:descriptions:company | string\|null | The vacancy related description about the company. | This is a description about my company. |
+| data:descriptions:summary | string\|null | A summary of the vacancy | This is the summary of the vacancy |
+| data:descriptions:role | string\|null | The vacancy main description. | This is a description about the job. |
+| data:descriptions:requirements | string\|null | The vacancy description about required qualifications. | To work here you need to be qualified. |
+| data:descriptions:benefits | string\|null | The vacancy description about provided benefits. | You will get free tickets to the moon. |
+| data:descriptions:additionalInformation | string\|null | Additional description. | Additionally we also want you to know. |
+| data:descriptions:startDate | dateTime\|null | The date this description channel should be published. | 2000-01-01 00:00:00 |
+| data:descriptions:endDate | dateTime\|null | The date this description channel should be unpublished. | 2000-01-01 00:00:00 |
