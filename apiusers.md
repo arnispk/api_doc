@@ -2,6 +2,9 @@
 layout: default
 ---
 
-# ATS Central documentation
+# Users
 
-This document is the official reference to the ATS Central API and its functionality. The current API version is 1.0.  
+## Create a User
+The ATS Central User consists in 3 main entities - The API user, one (or more) external ATS(s) and one domain.
+* **User** - Holds the user details, credentials and default preferences (like language).
+* **ATS** - The external ATS used to retrieve and post resources.
