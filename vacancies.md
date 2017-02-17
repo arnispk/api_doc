@@ -190,7 +190,7 @@ GET /v1/vacancies/{id}
 | Name | Type | Description | Example |
 |---|---|---|---|
 | nextUpdate | dateTime\|null | The date resources will be updated and retrieved from the external ATS. | 2016-05-16 12:15:02 |
-| timeZoneId | string | The current timezone ID ([http://php.net/manual/en/timezones.php](http://php.net/manual/en/timezones.php)) | UTC |
+| timeZoneId | string | The current timezone ID ([http://php.net/manual/en/timezones.php](php.net:timezones)) | UTC |
 | totalFound | int | The total amount of available vacancies. | 503 |
 | data:id | uuid | The ATS Central vacancy ID. | b72262d6-26e8-4130-b25c-11e46effa269 |
 | data:provider | string | The external ATS name reference | Whires |
@@ -261,12 +261,12 @@ data:departments | array | The department. | |
 | data:recruiters:email | string\|null | The recruiter email address. | mary.jane@acme.com |
 | data:recruiters:phone | string\|null | The recruiter phone number. | +31 617 457 411 |
 | data:recruiters:links | object\|empty | The recruiter social media links. Each of this object's keys represent a distinct link (for example, facebook, twitter, linkedin). Each link is a nullable string. | "facebook": "https://...", "twitter": null |
-| data:recruiters:picture-link | string\|null | The recruiter's image URL, if available | "https://www.cloudimages.com/pic/recruiter.png" |
+| data:recruiters:picture-link | string\|null | The recruiter's image URL, if available | "https://www.example.com/pic/recruiter.png" |
 | data:recruiters:picture-data | string\|null | The recruiter's image in base64 format, if available | QW4arwh4534fghZdERc42...dadr== |
 | data:markers | object | Sets vacancy extra parameters and markers. | |
 | data:markers:isInternal | bool\|null | Identifies the vacancy as part of an internal sub-list of vacancies. | false |
 | data:markers:isFeatured | bool\|null | Identifies the vacancy as a featured vacancy. | true |
-| data:applicationFormUrl | string\|null | The link to an external application form URL (provided by the External ATS). | http://www.acmeats.com/job-application-iframe/55543-2213 |
+| data:applicationFormUrl | string\|null | The link to an external application form URL (provided by the External ATS). | http://www.example.com/job/55543-2213 |
 | creationDate | dateTime | The date the resource was created in the ATS Central. | 2000-01-01 00:00:00 |
 | updateDate | dateTime | The date the resource was updated in the ATS Central. | 2000-01-01 00:00:00 |
 | startDate | dateTime\|null | The date this resource is considered active. | 2000-01-01 00:00:00 |
