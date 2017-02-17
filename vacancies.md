@@ -17,3 +17,4 @@ GET /v1/vacancies
 | output | string | no | The type of output to provide. Available options are 'json' and 'custom'. Defaults to JSON. |
 | status | string | no | The vacancy status to return. Available options are 'scheduled', 'open', 'on-hold', 'closed'. If not specified every vacancy is returned. |
 
+Test
