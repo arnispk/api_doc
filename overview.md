@@ -2,13 +2,13 @@
 layout: default
 ---
 
-# Overview
+## Overview
 
-## API Endpoints
+### API Endpoints
 ```
 https://ats-central.endouble.net/v1
 ```
-## API Conventions
+### API Conventions
 * API versioning is handled using a major version number in the URL, e.g. /api/v1/endpoint.
 * /something is equivalent to /something/.
 * URL paths, URL query parameter names, and JSON field names are case sensitive.
@@ -18,12 +18,12 @@ https://ats-central.endouble.net/v1
 * Unexpected query parameters are ignored.
 * Unexpected JSON fields in the request body are ignored.
 
-## Authentication
+### Authentication
 * To authenticate with the APIs you need to specify the “Authorization” header with each request. The value of the "Authorization" header must be a valid API key. You can also perform basic auth with the API key as username and an empty password. 
 * Administrators can create a new account and provide you an API Key. You cannot recover an API key after it has been created.
 * Every request to the API server is done through HTTPS, your credentials are as secure as the encrypted connection.
 
-## Errors
+### Errors
 When you make an API call you may receive an error message in response. Either there is something wrong with your request or something went wrong on our end.
 ```
 422 Unprocessable Entity
@@ -40,7 +40,7 @@ When you make an API call you may receive an error message in response. Either t
 }
 ```
 
-## Error Table
+### Error Table
 
 | Code | Status Name | Description | Suggested Action |
 |---|---|---|---|
