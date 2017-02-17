@@ -7,6 +7,7 @@ layout: default
 ## Retrieve all Vacancies
 
 ***Request***:
+
 ```
 GET /v1/vacancies
 ```
