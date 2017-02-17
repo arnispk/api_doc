@@ -1,15 +1,7 @@
 ---
-layout:default
+layout: default
 ---
 
-# Forms
+# ATS Central documentation
 
-## Retrieve all Forms
-
-***Request***:
-
-```
-GET /v1/forms
-```
-
-### Query Parameters
+This document is the official reference to the ATS Central API and its functionality. The current API version is 1.0.  
