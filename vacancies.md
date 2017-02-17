@@ -2,8 +2,8 @@
 layout:default
 ---
 
-# Vacancies
+## Vacancies
 
-## Retrieve all Vacancies
+### Retrieve all Vacancies
 
 test
