@@ -1,8 +1,7 @@
 ---
-layout:default
+layout: default
 ---
 
-# Users
+# ATS Central documentation
 
-## Create a User
-The ATS Central User consists in 3 main entities
+This document is the official reference to the ATS Central API and its functionality. The current API version is 1.0.  
