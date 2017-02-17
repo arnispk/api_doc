@@ -190,7 +190,7 @@ GET /v1/vacancies/{id}
 | Name | Type | Description | Example |
 |---|---|---|---|
 | nextUpdate | dateTime\|null | The date resources will be updated and retrieved from the external ATS. | 2016-05-16 12:15:02 |
-| timeZoneId | string | The current timezone ID ([http://php.net/manual/en/timezones.php](php.net:timezones)) | UTC |
+| timeZoneId | string | The current timezone ID ([php.net:timezones](http://php.net/manual/en/timezones.php)) | UTC |
 | totalFound | int | The total amount of available vacancies. | 503 |
 | data:id | uuid | The ATS Central vacancy ID. | b72262d6-26e8-4130-b25c-11e46effa269 |
 | data:provider | string | The external ATS name reference | Whires |
