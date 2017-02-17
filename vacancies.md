@@ -29,7 +29,7 @@ GET /v1/vacancies/{id}
 
 #### Response
 
-```
+```json
 {
     "nextUpdate": "2016-05-16 12:15:02",
     "timeZoneId": "UTC",
