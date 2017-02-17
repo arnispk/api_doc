@@ -1,12 +1,17 @@
-## Vacancies
+---
+layout: default
+---
 
-### Retrieve all Vacancies
+# Vacancies
+
+## Retrieve all Vacancies
 
 ***Request***:
 ```
 GET /v1/vacancies
 ```
-#### Query Parameters
+
+### Query Parameters
 
 | Name | Type | Required | Description |
 |---|---|---|---|
@@ -15,19 +20,20 @@ GET /v1/vacancies
 | output | string | no | The type of output to provide. Available options are 'json' and 'custom'. Defaults to JSON. |
 | status | string | no | The vacancy status to return. Available options are 'scheduled', 'open', 'on-hold', 'closed'. If not specified every vacancy is returned. |
 
-### Retrieve one Vacancy by ID
+## Retrieve one Vacancy by ID
 
 ***Request***:
 ```
 GET /v1/vacancies/{id}
 ```
-#### Query Parameters
+
+### Query Parameters
 
 | Name | Type | Required | Description |
 |---|---|---|---|
 | id | uuid | yes | The id of the record to return from the API. |
 
-#### Response
+### Response
 
 ```json
 {
@@ -178,7 +184,7 @@ GET /v1/vacancies/{id}
 }
 ```
 
-#### Table of Reference
+### Table of Reference
 
 | Name | Type | Description | Example |
 |---|---|---|---|
