@@ -13,11 +13,3 @@ GET /v1/forms
 ```
 
 ### Query Parameters
-
-| Name | Type | Required | Description |
-|---|---|---|---|
-| type | string | no | The type of form to return. Available options are:<br> * candidate - Returns the candidate apply form definitions. |
-
-## Retrieve one Form by ID
-
-***Request***:
