@@ -159,7 +159,7 @@ GET /v1/vacancies/{id}
                         "linkedIn": "https://www.linkedin.com/in/batman-bruce-wayne-75131"
                     },
                     "picture-link": "https://www.imagedepot.com/usr/1290395.png",
-                    "picture-data": "SB3aWxsIGJlIGVuY29kZWQgaGVyZSBpbiBiYXNlIDY0IGZvcm1hdA==",
+                    "picture-data": "WxsIGJlIGVuY29kZWQgaGVyZSBpbiBiYXNlIDY0IGZvcm1hdA==",
                 },
                 {
                     "name": "John Doe",
