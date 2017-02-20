@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Home](index)
+[Home](index) > [Vacancies](vacancies)
 
 # Vacancies
 
