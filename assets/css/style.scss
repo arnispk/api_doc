@@ -3,6 +3,6 @@
 
 @import "{{ site.theme }}";
 
-@media screen and (min-width: 1024px) {
-  .inner { position: relative; max-width: 1024px; }
+@media screen and (min-width: 768px) {
+  .inner { position: relative; max-width: 768px; }
 }
