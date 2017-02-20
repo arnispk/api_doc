@@ -2,6 +2,8 @@
 layout: default
 ---
 
+[Home](index)
+
 # Candidates
 
 ## Create a candidate
