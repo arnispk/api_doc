@@ -187,8 +187,8 @@ GET /v1/vacancies/{id}
 
 ### Table of Reference
 
-| Name | Type | Description | Example |
-|---|---|---|---|
+| Name | Type | Description |
+|---|---|---|
 | nextUpdate | dateTime\|null | The date resources will be updated and retrieved from the external ATS. |
 | timeZoneId | string | The current timezone ID ([php.net:timezones](http://php.net/manual/en/timezones.php)) |
 | totalFound | int | The total amount of available vacancies. |
