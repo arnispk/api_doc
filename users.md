@@ -2,6 +2,8 @@
 layout: default
 ---
 
+[Home](index)
+
 # Users
 
 ## Create a User
