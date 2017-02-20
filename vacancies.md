@@ -2,6 +2,8 @@
 layout: default
 ---
 
+[Home](index)
+
 # Vacancies
 
 ## Retrieve all Vacancies
